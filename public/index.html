@@ -1,0 +1,67 @@
+
+<!--
+File: index.html
+Author: Vezetéknév Keresztnév
+Copyright: 2024, Vezetéknév Keresztnév
+Group: Csoportnév
+Date: 2024-12-02
+Github: https://github.com/valami12345/
+Licenc: MIT
+-->
+
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8">
+    <title>Háromszög</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">    
+  </head>
+  <body>
+    <div class="container">
+        <h1>Háromszög területe</h1>
+        <p>Háromszög területének számítása a háromszög oldalaiból</p>
+        <form class="form bg-secondary p-3 rounded">
+          <div class="form-group">
+            <label for="aside"
+            class="form-label">a oldal</label>
+            <input type="number" id="aside" 
+            class="form-control" placeholder="a oldal">
+          </div>
+          <div class="form-group">
+            <label for="bside"
+            class="form-label">b oldal</label>
+            <input type="number" id="bside" 
+            class="form-control" placeholder="b oldal">
+          </div>
+          <div class="form-group">
+            <label for="cside"
+            class="form-label">c oldal</label>
+            <input type="number" id="cside" 
+            class="form-control" placeholder="c oldal">
+          </div>
+          <div>
+            <button class="btn btn-primary my-3">
+              Számít
+            </button>
+            <button 
+            class="btn btn-info my-3"
+            type="button" 
+            id="aboutButton">
+              Névjegy
+            </button>
+          </div>
+          <div class="form-group">
+            <label for="area"
+            class="form-label">Terület</label>
+            <input type="number" id="area" 
+            class="form-control" readonly>
+          </div>
+
+        </form>
+
+    </div>
+    <script src="bootstrap.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
